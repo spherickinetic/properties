@@ -33,19 +33,19 @@ This demo requires PHP 8.1, Composer and MySQL to be installed and running.
    composer install
    ```
 
-3. Migrate the database and choose 'yes' to create the database
-
-   ```bash
-   php artisan migrate
-   ```
-
-4. Configure your environment
+3. Configure your environment
 
    ```bash
    cp .env.example .env
    ```
 
 Update the .env file with your database name and settings.
+
+4. Migrate the database and choose 'yes' to create the database
+
+   ```bash
+   php artisan migrate
+   ```
 
 5. Seed the database
 
